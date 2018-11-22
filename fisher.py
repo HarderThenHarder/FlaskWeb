@@ -14,7 +14,6 @@ def search(q, page):
     else:
         result = YuShuBook.key_search(q)
     return jsonify(result)
-    # return json.dumps(result), 200, {'content-type': 'application/json'}
 
 
 if __name__ == "__main__":
